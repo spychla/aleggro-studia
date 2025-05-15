@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produkt - Allegro</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<header class="allegro-header">
+  <div class="top-bar">
+    <div class="accessibility-controls">
+      <button onclick="toggleContrast()">Kontrast</button>
+      <button onclick="toggleDarkMode()">🌙</button>
+      <button onclick="changeFontSize('increase')">A+</button>
+      <button onclick="changeFontSize('decrease')">A-</button>
+    </div>
+    <div class="logo">allegro</div>
+
+    <input type="text" class="search-box" placeholder="Czego szukasz?">
+    <a href="#" class="search-many">szukaj wielu</a>
+
+    <select class="category-select">
+      <option>Wszystko</option>
+    </select>
+
+    <button class="search-button">SZUKAJ</button>
+
+    <div class="icons">
+      <i class="fas fa-truck"></i>
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-bell"></i>
+      <i class="fas fa-user"></i>
+      <span class="my-account">Moje Allegro</span>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    <button class="category-button">Kategorie ▼</button>
+
+    <div class="promo-icons">
+      <span><i class="fas fa-fire"></i> Allegro Days do -40%</span>
+      <span><i class="fas fa-shield-alt"></i> Allegro Protect</span>
+      <span><i class="fas fa-trophy"></i> Gwarancja najniższej ceny</span>
+      <span><i class="fas fa-briefcase"></i> Sprzedawaj na Allegro</span>
+    </div>
+  </div>
+</header>
+<body>
+  <header class="allegro-header">
+    <div class="top-bar">
+      <div class="logo">allegro</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="product-section">
+      <h2>Szczegóły produktu</h2>
+      <div class="product-card">
+        <img src="autko.png" alt="Produkt">
+        <h3>Nazwa produktu</h3>
+        <p class="price">129,99 zł</p>
+        <p>Opis: opis</p>
+        <a href="#" class="buy-button">Dodaj do koszyka</a>
+        <br><br>
+        <a href="index.html">← Wróć do strony głównej</a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
